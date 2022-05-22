@@ -7,13 +7,13 @@ const MainLayouts = ({children}) => {
             <div className="antialiased bg-blue-50">
                 <div>
                     <div>
-                        <div className="max-w-xl px-8 mx-auto">
+                        <div className="max-w-l px-2 mx-auto">
                             <Navbar />
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="mt-6 sm:mt-0 sm:py-12">
+            <div className="mt-6 p-8 sm:mt-0 sm:py-12">
                 {children}
             </div>
             <Footer />
